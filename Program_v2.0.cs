@@ -39,10 +39,11 @@ namespace Prueba2
         //metodo encargado de comprobar si se desea permanecer en el programa o salir de este 
         static private int comprobacion()
         {
-            int entrada=2;
+            int entrada;
             Boolean bamdera;
             do
             {
+                entrada=2;
                 bamdera = true;
                 try
                 {
